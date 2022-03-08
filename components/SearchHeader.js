@@ -1,7 +1,6 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import { useRef } from 'react/cjs/react.development';
 import { MicrophoneIcon, SearchIcon, XIcon } from '@heroicons/react/solid';
 import Avatar from './Header/Avatar';
 import { ImageURL } from '../assets/ImageURL'
@@ -9,7 +8,7 @@ import HeaderOptions from './HeaderOptions';
 
 const SearchHeader = () => {
     const router = useRouter();
-
+    
     const searchInputRef = useRef(null);
 
     //handle search input field
@@ -46,18 +45,18 @@ const SearchHeader = () => {
                     className="flex-grow w-full focus:outline-none"  
                 />
 
-                {/* <XIcon 
+                <XIcon 
                     className='h-7 text-gray-500  sm:mr-3 cursor-pointer transition duration-100 transform hover:scale-125' 
                     onClick={e=>searchInputRef.current.value=""}
-                /> */}
+                />
 
-                {/* <MicrophoneIcon className='h-6 mr-3 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300 cursor-pointer' /> */}
+                <MicrophoneIcon className='h-6 mr-3 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300 cursor-pointer' />
 
-                {/* <SearchIcon  className='h-6 hidden sm:inline-flex text-blue-500 cursor-pointer' /> */}
+                <SearchIcon  className='h-6 hidden sm:inline-flex text-blue-500 cursor-pointer' />
                 
                 {/* search button for enter to work but hidden */}
 
-                {/* <button hidden type='submit' onClick={search} >search</button> */}
+                <button hidden type='submit' onClick={search} >search</button>
 
             </form>
             <Avatar className="ml-auto" url={ImageURL}/>
