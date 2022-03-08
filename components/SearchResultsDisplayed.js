@@ -19,8 +19,8 @@ const SearchResultsDisplayed = ({ results }) => {
         <p className='font-normal line-clamp-2'>{result.snippet}</p>
       </div>
     ))}
-      {console.log(PaginationButtons)}
-    {/* <PaginationButtons /> */}
+    {console.log('END of Search Result')}
+    <PaginationButtons />
   </div>
   </>
     
