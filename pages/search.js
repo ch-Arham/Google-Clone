@@ -40,7 +40,7 @@ const search = ({ results }) => {
           </div>
         ))}
         {console.log("END of Search Result")}
-        <PaginationButtons />
+        {/* <PaginationButtons /> */}
       </div>
     </>
   );
