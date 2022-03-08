@@ -2,12 +2,9 @@ import Head from "next/head";
 import React from "react";
 import SearchHeader from "../components/SearchHeader";
 import Response from "../Response";
-// import { useRouter } from 'next/router';
 import SearchResultsDisplayed from "../components/SearchResultsDisplayed";
 
 const search = ({ results }) => {
-  
-  // const router = useRouter();
 
   return (
     <>
