@@ -15,9 +15,9 @@ const search = ({ results }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
   
-      <SearchHeader />
+      {/* <SearchHeader /> */}
 
-      {/* <SearchResultsDisplayed results={results}/> */}
+      <SearchResultsDisplayed results={results}/>
       
     </>
   );
