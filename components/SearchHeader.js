@@ -63,8 +63,8 @@ const SearchHeader = () => {
             <Avatar className="ml-auto" url={ImageURL}/>
         </div>
 
-        {/* Header Options */}
-        <HeaderOptions />
+        {/* Header Options----------- */}
+        {/* <HeaderOptions />  */}
     </header>
   )
 }
