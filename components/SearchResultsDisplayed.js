@@ -2,7 +2,7 @@ import React from 'react'
 import PaginationButtons from './PaginationButtons'
 
 const SearchResultsDisplayed = ({ results }) => {
-  
+  console.log(results) //TESTING
   return (
     <>
     <div className='mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52"'>
