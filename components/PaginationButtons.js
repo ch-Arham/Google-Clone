@@ -7,7 +7,6 @@ const PaginationButtons = () => {
     const router = useRouter();
 
     const startIndex = Number(router.query.start) || 0;
-    console.log('PaginationButtons')
   return (
     <div className='flex max-w-lg justify-between text-blue-700 mb-10'>
         {startIndex >= 10 && (
@@ -26,7 +25,6 @@ const PaginationButtons = () => {
                 <p>Next</p>
             </div>
         </Link>
-        {console.log('End of Pagination')}
     </div>
   )
 }
