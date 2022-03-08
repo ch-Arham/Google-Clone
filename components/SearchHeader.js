@@ -41,7 +41,7 @@ const SearchHeader = () => {
                     type="text" 
                     name="" 
                     id=""
-                    placeholder={router.query.searchedTerm}
+                    defaultValue={router.query.searchedTerm}
                     ref={searchInputRef}  
                     className="flex-grow w-full focus:outline-none"  
                 />
