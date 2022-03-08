@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.1.2",
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/line-clamp": "^0.3.1",
     "dotenv": "^16.0.0",

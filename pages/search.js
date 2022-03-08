@@ -15,7 +15,6 @@ const search = ({ results }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
   
-      {/* Problem Here */}
       <SearchHeader />  
 
       <SearchResultsDisplayed results={results}/>
